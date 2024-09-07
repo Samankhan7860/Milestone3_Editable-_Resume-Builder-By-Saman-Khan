@@ -1,25 +1,33 @@
-body{
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 20px;
+    margin: 0;
     padding: 0;
     background-color: #f3edc3;
+    background-image: url('https://images.unsplash.com/photo-1585314455785-a6827d0ee2a7?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+    backdrop-filter: blur(20px);
 }
 
-h1{
+h1 {
     text-align: center;
-    color: #2c3e50;
+    color: #f9f9f9;
 }
 
-form{
+form {
     max-width: 600px;
     margin: auto;
     background-color: #f8e2a3;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0,0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     padding: 20px;
 }
 
-fieldset{
+fieldset {
     border: 2px solid #bd7d34;
     border-radius: 8px;
     padding: 20px;
@@ -27,20 +35,21 @@ fieldset{
     background-color: rgb(255, 223, 193);
 }
 
-legend{
+legend {
     font-weight: bold;
     text-align: left;
     color: #1a222b;
 }
 
-label{
+label {
     display: block;
     margin-top: 10px;
-    color:  #1a222b;
+    color: #1a222b;
 
 }
 
-input,textarea{
+input,
+textarea {
     width: calc(100% - 1px);
     padding: 8px;
     margin-top: 4px;
@@ -49,7 +58,7 @@ input,textarea{
     box-sizing: border-box;
 }
 
-button{
+button {
     display: block;
     width: 100%;
     padding: 10px;
@@ -61,25 +70,55 @@ button{
     margin-top: 10px;
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+
 }
 
-button:hover{
+button:hover {
     background-color: #ff9b28;
     color: white;
 }
 
-#resumeOutput{
+#resumeOutput {
     max-width: 600px;
     margin: auto;
     padding: 20px;
     border: 2px solid #bd7d34;
     border-radius: 8px;
     background-color: #f8e2a3;
-    box-shadow: 0 4px 8px rgba(0, 0, 0,0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 
-#resumeOutput h2{
+#resumeOutput h2 {
     color: #1a222b;
 }
+
+.profilePicture {
+    display: block;
+    margin: auto;
+    border: 2px solid #bd7d34;
+    box-shadow: 0 4px 8px rgba(11, 7, 211, 0.5);
+    border-radius: 500%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+
+}
+
+h5 {
+    text-align: center;
+    color: #f9f9f9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* input[type="radio"] {
+    display: flow-root;
+    vertical-align: left;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+} */
